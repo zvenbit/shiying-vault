@@ -1,0 +1,3 @@
+#!/bin/sh
+# Validate index contents, including files forced past .gitignore.
+exec python3 scripts/check_release.py --staged
